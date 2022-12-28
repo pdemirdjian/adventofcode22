@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strconv"
 
-	day01 "github.com/pdemirdjian/adventofcode22/v2/day.01"
-	"github.com/pdemirdjian/adventofcode22/v2/util"
+	day01 "github.com/pdemirdjian/adventofcode22/day.01"
+	"github.com/pdemirdjian/adventofcode22/util"
 )
 
 func main() {

@@ -1,3 +1,4 @@
-module github.com/pdemirdjian/adventofcode22/v2
+module github.com/pdemirdjian/adventofcode22
 
 go 1.19
+

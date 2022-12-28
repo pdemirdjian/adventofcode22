@@ -7,7 +7,7 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/pdemirdjian/adventofcode22/v2/util"
+	"github.com/pdemirdjian/adventofcode22/util"
 )
 
 type Day struct {
