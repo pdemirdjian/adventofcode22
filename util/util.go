@@ -7,8 +7,6 @@ import (
 	"strconv"
 )
 
-const RootInputPath string = "/Users/peterdemirdjian/adventofcode22/inputs/"
-
 type Day struct {
 	Number    int
 	PartA     bool
