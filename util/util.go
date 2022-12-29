@@ -71,5 +71,9 @@ func (day Day) GetPartA() bool {
 }
 
 func (day Day) notImplemented() string {
-	return " Day " + strconv.Itoa(day.Number) + " not implemented yet."
+	part := "A"
+	if !day.PartA {
+		part = "B"
+	}
+	return " Day " + strconv.Itoa(day.Number) + " Part " + part + " not implemented yet."
 }

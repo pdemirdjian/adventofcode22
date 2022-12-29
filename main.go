@@ -8,6 +8,7 @@ import (
 	"strconv"
 
 	day01 "github.com/pdemirdjian/adventofcode22/day.01"
+	day02 "github.com/pdemirdjian/adventofcode22/day.02"
 	"github.com/pdemirdjian/adventofcode22/util"
 )
 
@@ -55,6 +56,17 @@ func main() {
 				PartA:     false,
 				InputPath: rootInputPath + "01b.txt",
 				TestPath:  rootInputPath + "01b.test.txt",
+			}
+		case 2:
+			dayA = day02.Day{
+				Number:    i,
+				PartA:     true,
+				InputPath: rootInputPath + "02a.txt",
+				TestPath:  rootInputPath + "02a.test.txt",
+			}
+			dayB = day02.Day{
+				Number: i,
+				PartA:  false,
 			}
 		default:
 			dayA = util.Day{
