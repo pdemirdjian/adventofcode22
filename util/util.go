@@ -7,8 +7,6 @@ import (
 	"strconv"
 )
 
-const RootInputPath string = "/Users/peterdemirdjian/adventofcode22/inputs/"
-
 type Day struct {
 	Number    int
 	PartA     bool
@@ -73,5 +71,9 @@ func (day Day) GetPartA() bool {
 }
 
 func (day Day) notImplemented() string {
-	return " Day " + strconv.Itoa(day.Number) + " not implemented yet."
+	part := "A"
+	if !day.PartA {
+		part = "B"
+	}
+	return " Day " + strconv.Itoa(day.Number) + " Part " + part + " not implemented yet."
 }
